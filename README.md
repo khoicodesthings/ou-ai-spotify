@@ -1,6 +1,6 @@
 Go to your Spotify's [Account Privacy](https://www.spotify.com/us/account/privacy/) page (you might have to log in with your Spotify account first), scroll down to `Download Your Data` and choose `Account Data`, then `Request Data` and confirm via email in order to retrieve your data for the past year. It will take a few days for the data to be sent to you.
 
-Replace the `StreamingHistory_music_X.json` files with your own once you have collected and process your own streaming data. 
+In the `data` folder, replace the `StreamingHistory_music_X.json` files with your own once you have collected your own streaming data. You may have more or less files depending on how much music you listened to.
 
 For the Jupyter Notebook, there are plenty of ways to run them. In our case, the simplest way is to run it locally within VS Code. This should not require any additional setup, you simply need to select Python/virtual env/anaconda env as the kernel. Otherwise, there are plenty of tutorials out there on setting up environments and running notebooks.
 
